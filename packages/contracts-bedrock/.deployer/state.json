@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "create2Salt": "0x3c0e979d83af13d0bf39d1d94470d1752510d46f81a108f4006865103bbdab48",
+  "appliedIntent": null,
+  "prestateManifest": null,
+  "superchainContracts": {
+    "SuperchainProxyAdminImpl": "0x3903671717561b77e5b9dfc2272151a8a93d278a",
+    "SuperchainConfigProxy": "0x023f8969cc1bbc7965719e106e6f75ae79b57c22",
+    "SuperchainConfigImpl": "0x4da82a327773965b8d4d85fa3db8249b387458e7",
+    "ProtocolVersionsProxy": "0x35f5db242af7ac9b798ddff44f3e93e3e2a6dbe3",
+    "ProtocolVersionsImpl": "0x37e15e4d6dffa9e5e320ee1ec036922e563cb76c"
+  },
+  "superchainRoles": {
+    "SuperchainProxyAdminOwner": "0x10917ff7e6a41f216cd0f9587024c8e4a4a0da43",
+    "SuperchainGuardian": "0x10917ff7e6a41f216cd0f9587024c8e4a4a0da43",
+    "ProtocolVersionsOwner": "0x10917ff7e6a41f216cd0f9587024c8e4a4a0da43"
+  },
+  "implementationsDeployment": {
+    "OpcmImpl": "0x2b5f9043f3fca7f9cae9f67938cacdac5e789da3",
+    "OpcmContractsContainerImpl": "0x0000000000000000000000000000000000000000",
+    "OpcmGameTypeAdderImpl": "0xc9060f6283b78e1feebfd1993cb6350b5626f115",
+    "OpcmDeployerImpl": "0x88e39ea5cfe6c4d450305eec5fd90dd1fba87f45",
+    "OpcmUpgraderImpl": "0xbf098a12edcf99f8e6db258b7ac567a1fd020f4b",
+    "OpcmInteropMigratorImpl": "0x0000000000000000000000000000000000000000",
+    "DelayedWethImpl": "0x5e40b9231b86984b5150507046e354dbfbed3d9e",
+    "OptimismPortalImpl": "0xb443da3e07052204a02d630a8933dac05a0d6fb4",
+    "EthLockboxImpl": "0x0000000000000000000000000000000000000000",
+    "PreimageOracleImpl": "0x1fb8cdfc6831fc866ed9c51af8817da5c287add3",
+    "MipsImpl": "0xf027f4a985560fb13324e943edf55ad6f1d15dc1",
+    "SystemConfigImpl": "0x340f923e5c7cbb2171146f64169ec9d5a9ffe647",
+    "L1CrossDomainMessengerImpl": "0x5d5a095665886119693f0b41d8dfee78da033e8b",
+    "L1Erc721BridgeImpl": "0x7ae1d3bd877a4c5ca257404ce26be93a02c98013",
+    "L1StandardBridgeImpl": "0x0b09ba359a106c9ea3b181cbc5f394570c7d2a7a",
+    "OptimismMintableErc20FactoryImpl": "0x5493f4677a186f64805fe7317d6993ba4863988f",
+    "DisputeGameFactoryImpl": "0x4bba758f006ef09402ef31724203f316ab74e4a0",
+    "AnchorStateRegistryImpl": "0x7b465370bb7a333f99edd19599eb7fb1c2d3f8d2"
+  },
+  "opChainDeployments": [
+    {
+      "id": "0x00000000000000000000000000000000000000000000000000000000000ce609",
+      "OpChainProxyAdminImpl": "0xb71d988e888cfd787f81ebe80b31f7abc58f72b0",
+      "OptimismPortalProxy": "0x1f80c327a63d221e82291facbf708ed964307899",
+      "AddressManagerImpl": "0xd61afbe39d750416f74e25c8e0cc140ae48c7f65",
+      "L1Erc721BridgeProxy": "0x31659b8fb4c01710a873b87f11952c01b7cb392c",
+      "SystemConfigProxy": "0x2d54b7678740938a41a4973cde5378c2b78f7ddf",
+      "OptimismMintableErc20FactoryProxy": "0x96452d6ac181be24f0b3702b95905d1da0a6576e",
+      "L1StandardBridgeProxy": "0xf811394a39ea2138fda413b45a8bb966d0d122fd",
+      "L1CrossDomainMessengerProxy": "0x6e353804de24d79f4cee30f8ec578ef68c3ac012",
+      "EthLockboxProxy": "0x0000000000000000000000000000000000000000",
+      "DisputeGameFactoryProxy": "0x079a4a54363eec78fb40caa1cde58fe6d1c9e5bf",
+      "AnchorStateRegistryProxy": "0x1470cee85ca802b74f25259ad42bf6d340068326",
+      "FaultDisputeGameImpl": "0x0000000000000000000000000000000000000000",
+      "PermissionedDisputeGameImpl": "0x4dbc08ed703c2d800cc485d4ec3fce252c088e2f",
+      "DelayedWethPermissionedGameProxy": "0x7a34da675dfa931ebd7a5e6a45d6f95c753ad003",
+      "DelayedWethPermissionlessGameProxy": "0x0000000000000000000000000000000000000000",
+      "AltDAChallengeProxy": "0x0000000000000000000000000000000000000000",
+      "AltDAChallengeImpl": "0x0000000000000000000000000000000000000000",
+      "L2OutputOracleProxy": "0x0000000000000000000000000000000000000000",
+      "additionalDisputeGames": null,
+      "allocs": null,
+      "startBlock": null
+    }
+  ],
+  "l1StateDump": null,
+  "DeploymentCalldata": null
+}
+

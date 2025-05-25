@@ -29,8 +29,8 @@ config=$(cat << EOL
 {
   "l1StartingBlockTag": "$blockhash",
 
-  "l1ChainID": 11155111,
-  "l2ChainID": 42069,
+  "l1ChainID": 84532,
+  "l2ChainID": 845321,
   "l2BlockTime": 2,
   "l1BlockTime": 12,
 
