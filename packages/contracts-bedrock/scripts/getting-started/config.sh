@@ -51,10 +51,10 @@ cat << EOL > tmp_config.json
 
  "l1StartingBlockTag": "$blockhash",
 
-  "l1ChainID": $L1_CHAIN_ID,
-  "l2ChainID": $L2_CHAIN_ID,
-  "l2BlockTime": $L2_BLOCK_TIME,
-  "l1BlockTime": $L1_BLOCK_TIME,
+  "l1ChainID": 84532,
+  "l2ChainID": 845321,
+  "l2BlockTime": 2,
+  "l1BlockTime": 12,
 
   "maxSequencerDrift": 600,
   "sequencerWindowSize": 3600,
